@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">     
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Form</title>
 </head>
 <body>
-    
+    <div class="flex__example">
+        <div class="container">
+            
+            <form>
+                <div class="txt_field">
+                    <label for="name"> Full Name</label> 
+                    <input type="text" class="line-1" placeholder="" required>
+
+                    <label for="email"> Email</label> 
+                    <input type="email" class="line-2" placeholder="" required>
+
+                    <label for="messageregarding">Message Regarding</label> 
+                    <input type="text" class="line-2" placeholder="" required>
+
+                    <label for="message">Message</label> 
+                    <input type="text" class="line-1" placeholder="" required>
+
+                </div>
+               
+                <input class="input-btn" name="submit" type="Submit" value="Send Message">
+               
+            </form>
+            <div class="rectangle-1">    
+                <img src="images/img.png" alt="duck" class="img">
+            </div>
+           
+        </div>
+    </div>
 </body>
 </html>
